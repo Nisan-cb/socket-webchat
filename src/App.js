@@ -9,8 +9,8 @@ function App(){
 
     return(
         <Router>
-            <Route path="socket-webchat/" exact component={Join} />
-            <Route path="socket-webchat/chat"  component={Chat} />
+            <Route path="/socket-webchat/"  component={Join} />
+            <Route path="/socket-webchat/chat"  component={Chat} />
         </Router>
     );
 }
