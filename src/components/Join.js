@@ -36,7 +36,8 @@ function Join() {
                 onKeyPress={e=> e.key==='Enter'? submitHandler(e) : null}
                 
             />
-            <Link onClick={submitHandler} to={`/chat?name=${name}&room=${room}`}>
+            {process.env.PUBLIC_URL + '/'}
+            <Link onClick={submitHandler} to={`${process.env.PUBLIC_URL}/chat?name=${name}&room=${room}`}>
                 <button className="button mt-20" type="submit"
                 
                 >Sign in</button>
