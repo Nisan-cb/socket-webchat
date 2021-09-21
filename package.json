@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "homepage": "https://Nisan-cb.github.com.io/webchat",
+  "homepage": "https://Nisan-cb.github.com.io/socket-webchat",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
