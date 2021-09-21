@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "homepage": "https://Nisan-cb.github.com.io/socket-webchat",
+  "homepage": "https://Nisan-cb.github.com.io/socket-webcaht",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +8,6 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "emoji": "^0.3.2",
-    "gh-pages": "^3.2.3",
     "query-string": "^7.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -45,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
